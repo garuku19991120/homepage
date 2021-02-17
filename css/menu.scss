@@ -1,4 +1,88 @@
 /* 
-このファイルにはレスポンシブ含めメニュー
-に関するSCSSを書いていきます。 
+このファイルにはレスポンシブ含めメニューに関するSCSSを書いていきます。 
 */
+$main_font_color: rgb(0, 0, 0);
+$sub_font_color: rgb(255, 0, 76);
+$none: rgba(0, 0, 0, 0);
+.none {
+  display: none; /* チェックボックスの非表示 */
+}
+.trans {
+  transition: 0.3s ease-out;
+}
+.hum_menu_space {
+  width: 50px;
+  height: 50px;
+}
+span,
+span::before {
+  content: "";
+  position: relative;
+  display: block;
+  background-color: $main_font_color;
+  height: 7px;
+  border-radius: 2px;
+  width: 50px;
+}
+span {
+  top: 21px;
+  transform: rotate(90deg);
+}
+span::before {
+  transform: rotate(90deg);
+}
+#hum_c_box:checked ~ .hum_menu_space span {
+  transform: rotate(45deg);
+}
+.menu_btn,
+.hover {
+  border: none;
+  outline: none;
+  background-color: $none;
+}
+/* 通常時はホバー時の文字を非表示にする */
+a .hover {
+  display: none;
+}
+
+/* ホバー時は通常時の文字を非表示にする */
+a:hover .menu_btn {
+  display: none;
+}
+
+/* ホバー時に、ホバー時の文字を表示する */
+a:hover .hover {
+  text-decoration: none;
+  display: inline;
+  animation: btnkirikae 0.5s;
+}
+.menu_td {
+  text-align: center;
+  height: 50px;
+  width: 150px;
+}
+a {
+  text-decoration: none;
+}
+@keyframes btnkirikae {
+  0% {
+    opacity: 0;
+    transform: translate(5px, 0px);
+  }
+  100% {
+    opacity: 100;
+    transform: translate(0px, 0px);
+  }
+}
+@media screen and (min-width: 481px) {
+  /* PC用CSS */
+  body {
+    background-color: aqua;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* スマホ用CSS */
+  body {
+    background-color: brown;
+  }
+}
