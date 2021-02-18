@@ -7,6 +7,34 @@
   /* チェックボックスの非表示 */
 }
 
+.wid_max_menu {
+  /* background-color: blue; */
+  width: 100%;
+}
+
+.right {
+  float: right;
+}
+
+.gazou {
+  background-color: blue;
+  width: 200px;
+  height: 50px;
+}
+
+.menu_back_space {
+  background-color: blue;
+  position: fixed;
+  display: block;
+  top: -10px;
+  left: -500px;
+  width: 105%;
+  height: 850px;
+  opacity: 0;
+  z-index: 0;
+  transition: 0.3s ease-out;
+}
+
 .trans {
   transition: 0.3s ease-out;
 }
@@ -19,16 +47,19 @@
 span,
 span::before {
   content: "";
-  position: relative;
+  position: absolute;
   display: block;
   background-color: black;
   height: 7px;
   border-radius: 2px;
   width: 50px;
+  z-index: 100;
 }
 
 span {
-  top: 21px;
+  float: right;
+  top: 50px;
+  right: 20px;
   transform: rotate(90deg);
 }
 
@@ -40,10 +71,17 @@ span::before {
   transform: rotate(45deg);
 }
 
+#hum_c_box:checked ~ .menu_back_space {
+  opacity: 100;
+  display: block;
+  left: -10px;
+}
+
 .menu_btn,
 .hover {
   border: none;
   outline: none;
+  font-size: 20px;
   background-color: transparent;
 }
 
@@ -74,6 +112,11 @@ a {
   text-decoration: none;
 }
 
+.menu_table_ph {
+  margin: auto;
+  margin-top: 200px;
+}
+
 @keyframes btnkirikae {
   0% {
     opacity: 0;
@@ -87,14 +130,15 @@ a {
 
 @media screen and (min-width: 481px) {
   /* PC用CSS */
-  body {
-    background-color: aqua;
+  .phone_menu {
+    display: none;
   }
 }
 
 @media screen and (max-width: 480px) {
   /* スマホ用CSS */
-  body {
-    background-color: brown;
+  .pc_menu,
+  .gazou {
+    display: none;
   }
 }
