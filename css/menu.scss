@@ -15,12 +15,11 @@ $none: rgba(0, 0, 0, 0);
   float: right;
 }
 .gazou {
-  background-color: blue;
-  width: 200px;
-  height: 50px;
+  /* background-color: blue; */
+  height: 35px;
 }
 .menu_back_space {
-  background-color: blue;
+  background-color: white;
   position: fixed;
   display: block;
   top: -10px;
@@ -101,6 +100,10 @@ a {
   margin: auto;
   margin-top: 200px;
 }
+.phone25px {
+  font-size: 25px;
+}
+
 @keyframes btnkirikae {
   0% {
     opacity: 0;
@@ -111,13 +114,35 @@ a {
     transform: translate(0px, 0px);
   }
 }
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 980px) {
   /* PC用CSS */
   .phone_menu {
     display: none;
   }
 }
-@media screen and (max-width: 480px) {
+@media print, screen and (max-width: 979px) and (min-width: 768px) {
+  /* スマホ用CSS */
+  .pc_menu,
+  .gazou {
+    display: none;
+  }
+}
+
+@media print, screen and (max-width: 767px) and (min-width: 480px) {
+  /* スマホ用CSS */
+  .pc_menu,
+  .gazou {
+    display: none;
+  }
+}
+@media print, screen and (max-width: 767px) and (min-width: 480px) {
+  /* スマホ用CSS */
+  .pc_menu,
+  .gazou {
+    display: none;
+  }
+}
+@media only screen and (max-width: 479px) {
   /* スマホ用CSS */
   .pc_menu,
   .gazou {

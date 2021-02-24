@@ -17,7 +17,9 @@
     <table class="wid_max_menu" border="0">
         <tr>
             <td>
-                <div class="gazou"></div>
+                <a href="index.php">
+                    <img src="./img/logo.png" class="gazou"></img>
+                </a>
             </td>
             <td>
                 <div class="right">
