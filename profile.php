@@ -29,6 +29,17 @@
             </td>
         </tr>
     </table>
+
+    <table border="1">
+        <tr>
+            <td class="gazou">
+                <img src="" alt="">
+            </td>
+            <td class="setumei">
+
+            </td>
+        </tr>
+    </table>
 </body>
 
 </html>
