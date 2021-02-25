@@ -15,11 +15,11 @@
 
 <body>
     <!--あとあとこのファイルはphpファイルにするつもりです。今のところ作りやすいという点からhtmlになっています。 -->
-    <table class="wid_max_menu" border="0">
+    <table class="width-max" border="0">
         <tr>
             <td>
                 <a href="index.php">
-                    <img src="./img/logo.png" class="gazou"></img>
+                    <img src="./img/logo.png" class="logo"></img>
                 </a>
             </td>
             <td>

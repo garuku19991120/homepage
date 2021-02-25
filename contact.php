@@ -15,17 +15,28 @@
 
 <body>
     <!--あとあとこのファイルはphpファイルにするつもりです。今のところ作りやすいという点からhtmlになっています。 -->
-    <table class="wid_max_menu" border="0">
+    <table class="width-max" border="0">
         <tr>
             <td>
                 <a href="index.php">
-                    <img src="./img/logo.png" class="gazou"></img>
+                    <img src="./img/logo.png" class="logo"></img>
                 </a>
             </td>
             <td>
                 <div class="right">
                     <?php include('./php/menu.php'); ?>
                 </div>
+            </td>
+        </tr>
+    </table>
+
+    <table border="1" class="width-max height-max">
+        <tr>
+            <td class="contact-sub">
+
+            </td>
+            <td class="contact-main">
+
             </td>
         </tr>
     </table>

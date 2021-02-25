@@ -7,28 +7,23 @@
   /* チェックボックスの非表示 */
 }
 
-.wid_max_menu {
-  /* background-color: blue; */
-  width: 100%;
-}
-
 .right {
   float: right;
 }
 
-.gazou {
+.logo {
   /* background-color: blue; */
   height: 35px;
 }
 
 .menu_back_space {
-  background-color: white;
+  background-color: red;
   position: fixed;
   display: block;
   top: -10px;
   left: -500px;
   width: 105%;
-  height: 850px;
+  height: 110%;
   opacity: 0;
   z-index: 0;
   transition: 0.3s ease-out;
@@ -80,7 +75,7 @@ span::before {
 .hover {
   border: none;
   outline: none;
-  font-size: 20px;
+  font-size: 100%;
   background-color: transparent;
 }
 
@@ -103,8 +98,9 @@ a:hover .hover {
 
 .menu_td {
   text-align: center;
-  height: 50px;
-  width: 150px;
+  height: 7vh;
+  width: 9.5vw;
+  /*  background-color: aqua; */
 }
 
 a {
@@ -117,7 +113,11 @@ a {
 }
 
 .phone25px {
-  font-size: 25px;
+  font-size: 2rem;
+}
+
+.menu_tr {
+  height: 8vh;
 }
 
 @keyframes btnkirikae {
@@ -141,7 +141,7 @@ a {
 @media print, screen and (max-width: 979px) and (min-width: 768px) {
   /* スマホ用CSS */
   .pc_menu,
-  .gazou {
+  .logo {
     display: none;
   }
 }
@@ -149,7 +149,7 @@ a {
 @media print, screen and (max-width: 767px) and (min-width: 480px) {
   /* スマホ用CSS */
   .pc_menu,
-  .gazou {
+  .logo {
     display: none;
   }
 }
@@ -157,7 +157,7 @@ a {
 @media print, screen and (max-width: 767px) and (min-width: 480px) {
   /* スマホ用CSS */
   .pc_menu,
-  .gazou {
+  .logo {
     display: none;
   }
 }
@@ -165,7 +165,7 @@ a {
 @media only screen and (max-width: 479px) {
   /* スマホ用CSS */
   .pc_menu,
-  .gazou {
+  .logo {
     display: none;
   }
 }
