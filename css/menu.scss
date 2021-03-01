@@ -1,3 +1,12 @@
+html {
+  /* ルートのフォントサイズを10pxに設定しておく */
+  font-size: 62.5%;
+}
+body {
+  /* ルートのフォントサイズを1.6em（16pxと同等のサイズ）に設定 */
+  font-size: 1.6em;
+}
+
 /* 
 このファイルにはレスポンシブ含めメニューに関するSCSSを書いていきます。 
 */
@@ -12,7 +21,7 @@ $none: rgba(0, 0, 0, 0);
 }
 .logo {
   /* background-color: blue; */
-  height: 35px;
+  height: 3.5vh;
 }
 .menu_back_space {
   background-color: rgb(255, 0, 0);
@@ -65,7 +74,7 @@ span::before {
 .hover {
   border: none;
   outline: none;
-  font-size: 100%;
+  font-size: 1.8rem;
   background-color: $none;
 }
 /* 通常時はホバー時の文字を非表示にする */
@@ -81,6 +90,7 @@ a:hover .menu_btn {
 a:hover .hover {
   text-decoration: none;
   display: inline;
+  font-size: 1.6rem;
   animation: btnkirikae 0.5s;
 }
 .menu_td {
@@ -88,6 +98,12 @@ a:hover .hover {
   height: 7vh;
   width: 9.5vw;
   /*  background-color: aqua; */
+  a {
+    width: 9.5vw;
+    button {
+      width: 9.5vw;
+    }
+  }
 }
 a {
   text-decoration: none;

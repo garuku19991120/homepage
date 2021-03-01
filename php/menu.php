@@ -7,7 +7,6 @@
                 <td class="menu_td"><a href="gallery.php"><button class="menu_btn">GALLERY</button><button class="hover">ギャラリー</button></a></td>
                 <td class="menu_td"><a href="shop.php"><button class="menu_btn">SHOP</button><button class="hover">グッズ販売</button></a></td>
                 <td class="menu_td"><a href="contact.php"><button class="menu_btn">CONTACT</button><button class="hover">お問い合わせ</button></a></td>
-                <td class="hum-menu"><i class="fas fa-plus hum-menu-size kaiten"></i></td>
             </tr>
         </table>
     </div>
