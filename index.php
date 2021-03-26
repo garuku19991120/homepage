@@ -9,6 +9,7 @@
     <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
     <link rel="stylesheet" href="./css/style.min.css"><!-- 全体css -->
     <link rel="stylesheet" href="./css/menu.min.css">
+    <link rel="stylesheet" href="./css/index.min.css">
     <!--メニュー用css -->
     <script src="./js/none.js"></script><!-- transitionの動作無効用js -->
     <title>Document</title>
@@ -29,7 +30,48 @@
                 </div>
             </td>
         </tr>
+        <tr>
+            <td class="main_contents" colspan="2">
+            </td>
+        </tr>
     </table>
+    <div class="image_space"></div>
+
+    <p>aaa
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </p>
 </body>
 
 </html>

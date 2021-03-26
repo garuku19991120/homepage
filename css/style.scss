@@ -4,6 +4,9 @@
 */
 .width-max {
   width: 100%;
+  /*   background-color: red; */
+  position: absolute;
+  z-index: 100;
 }
 .height-max {
   /* メニューの高さを除いたコンテンツの高さになります。 */

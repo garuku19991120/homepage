@@ -1,0 +1,18 @@
+.image_space {
+  background-color: rgba(127, 255, 212, 0.336);
+  top: -10;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+  background-image: url(../img/image1.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  opacity: 0.5;
+  background-size: cover;
+}
+p {
+  font-size: 20px;
+}

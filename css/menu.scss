@@ -2,6 +2,7 @@ html {
   /* ルートのフォントサイズを10pxに設定しておく */
   font-size: 62.5%;
 }
+
 body {
   /* ルートのフォントサイズを1.6em（16pxと同等のサイズ）に設定 */
   font-size: 1.6em;
@@ -32,7 +33,7 @@ $none: rgba(0, 0, 0, 0);
   width: 105%;
   height: 110%;
   opacity: 0;
-  z-index: 0;
+  z-index: 50;
   transition: 0.3s ease-out;
 }
 .trans {
