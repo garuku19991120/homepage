@@ -6,11 +6,21 @@
 .width-max {
   width: 100%;
   /*   background-color: red; */
-  position: absolute;
-  z-index: 100;
 }
 
 .height-max {
   /* メニューの高さを除いたコンテンツの高さになります。 */
   height: 87vh;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.z-index-100 {
+  z-index: 100;
+}
+
+.center {
+  margin: auto;
 }

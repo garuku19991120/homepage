@@ -16,7 +16,7 @@
 
 <body>
     <!--あとあとこのファイルはphpファイルにするつもりです。今のところ作りやすいという点からhtmlになっています。 -->
-    <table class="width-max" border="0">
+    <table class="width-max absolute z-index-100" border="0">
         <tr>
             <td>
                 <a href="index.php">
