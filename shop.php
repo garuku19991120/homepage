@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/menu.min.css">
     <!--メニュー用css -->
     <script src="./js/none.js"></script><!-- transitionの動作無効用js -->
-    <title>Document</title>
+    <title>SHOP|グッズ販売</title>
 </head>
 
 <body>

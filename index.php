@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./css/index.min.css">
     <!--メニュー用css -->
     <script src="./js/none.js"></script><!-- transitionの動作無効用js -->
-    <title>Document</title>
+    <title>GAISEN|凱旋</title>
 </head>
 
 <body>
