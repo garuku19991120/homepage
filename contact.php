@@ -31,13 +31,38 @@
         </tr>
     </table>
 
-    <table border="1" class="width-max height-max">
+    <table border="1" class="width-max height-max contact-table-master">
         <tr>
             <td class="contact-sub">
 
             </td>
             <td class="contact-main">
-
+                <table class="contact-table" border="1">
+                    <tr class="contact-tr">
+                        <td class="contact-td">お名前</td>
+                        <td class="contact-td-input"><input type="text" class="contact-input"></td>
+                    </tr>
+                    <tr class="contact-tr">
+                        <td class="contact-td">メールアドレス</td>
+                        <td class="contact-td-input"><input type="text" class="contact-input"></td>
+                    </tr>
+                    <tr class="contact-tr">
+                        <td class="contact-td">電話番号</td>
+                        <td class="contact-td-input"><input type="text" class="contact-input"></td>
+                    </tr>
+                    <tr class="contact-tr">
+                        <td class="contact-td">貴社のホームページ</td>
+                        <td class="contact-td-input"><input type="text" class="contact-input"></td>
+                    </tr>
+                    <tr class="contact-tr">
+                        <td class="contact-td">ご予算</td>
+                        <td class="contact-td-input"><input type="text" class="contact-input"></td>
+                    </tr>
+                    <tr class="contact-tr">
+                        <td class="contact-td"></td>
+                        <td class="contact-td-input"><input type="text" class="contact-input"></td>
+                    </tr>
+                </table>
             </td>
         </tr>
     </table>

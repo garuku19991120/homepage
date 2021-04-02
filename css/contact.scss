@@ -1,0 +1,21 @@
+.contact-table-master {
+  width: 100vw;
+
+  .contact-sub {
+    width: 50vw;
+  }
+  .contact-main {
+    width: 50vw;
+    max-width: 50vh;
+    .contact-table {
+      .contact-tr {
+        .contact-td {
+        }
+        .contact-td-input {
+          .contact-input {
+          }
+        }
+      }
+    }
+  }
+}

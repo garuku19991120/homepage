@@ -1,1 +1,12 @@
-null
+.contact-table-master {
+  width: 100vw;
+}
+
+.contact-table-master .contact-sub {
+  width: 50vw;
+}
+
+.contact-table-master .contact-main {
+  width: 50vw;
+  max-width: 50vh;
+}

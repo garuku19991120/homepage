@@ -36,43 +36,38 @@
         </tr>
     </table>
     <div class="image_space"></div>
-<div class="center absolute gaisen"><img src="./img/logo.png" class="aaa"></div>
+    <div class="center absolute gaisen"><img src="./img/logo.png" class="center-logo"></div>
 
-    <p>aaa
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br><br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-    </p>
+    <div class="circleinfo">
+        <table class="circleinfo-table">
+            <th class="ciecle-info-th">サークル情報</th>
+            <tr class="circleinfo-tr">
+                <td class="circleinfo-date">2020/11/23:</td>
+                <td class="circleinfo-td">COMITIA134 サークル参加</td>
+            </tr>
+            <tr class="circleinfo-tr">
+                <td class="circleinfo-date">2020/11/23:</td>
+                <td class="circleinfo-detail">COMITIA134 頒布本「GAISEN No1」発売</td>
+            </tr>
+            <tr class="circleinfo-tr">
+                <td class="circleinfo-date">2021/05/04</td>
+                <td class="circleinfo-td">COMIC1 サークル参加予定</td>
+            </tr>
+            <tr class="circleinfo-tr">
+                <td class="circleinfo-date">2021/06/04</td>
+                <td class="circleinfo-detail">COMITIA134 サークル参加予定</td>
+            </tr>
+            <tr class="circleinfo-tr">
+                <td class="circleinfo-date"></td>
+                <td class="circleinfo-detail"></td>
+            </tr>
+            <tr class="circleinfo-tr">
+                <td class="circleinfo-date"></td>
+                <td class="circleinfo-detail"></td>
+            </tr>
+        </table>
+    </div>
+    <?php include('./php/copyright.php'); ?>
 </body>
 
 </html>

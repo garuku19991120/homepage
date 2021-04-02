@@ -9,7 +9,7 @@ html::-webkit-scrollbar {
   display: none;
 }
 .image_space {
-  background-color: rgba(127, 255, 212, 0.336);
+  background-color: rgb(128, 128, 128);
   top: -0.8vh;
   left: -0.4vw;
   width: 100vw;
@@ -41,7 +41,24 @@ p {
   mix-blend-mode: difference;
 }
 
-.aaa {
+.center-logo {
   width: 35vw;
-  filter: invert(100%);
+  filter: invert(100%); /* 色が反転される */
+}
+.circleinfo {
+  margin: {
+    top: 2vh;
+    left: 1vw;
+  }
+  width: 97vw;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 10px;
+  .circleinfo-table {
+    .ciecle-info-th {
+    }
+    .circleinfo-date {
+    }
+    .circleinfo-detail {
+    }
+  }
 }
