@@ -55,10 +55,27 @@ p {
   box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 10px;
   .circleinfo-table {
     .ciecle-info-th {
+      padding: 2vh 2vw;
+      font: {
+        size: 2em;
+      }
+      color: #707070;
     }
-    .circleinfo-date {
-    }
-    .circleinfo-detail {
+    .circleinfo-tr {
+      .circleinfo-date {
+        padding: 2vh 2vw;
+        font: {
+          size: 1.5em;
+        }
+        color: #707070;
+      }
+      .circleinfo-detail {
+        padding: 2vh 2vw;
+        font: {
+          size: 1.5em;
+        }
+        color: #707070;
+      }
     }
   }
 }
