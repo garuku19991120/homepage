@@ -27,7 +27,7 @@ body {
 }
 
 .menu_back_space {
-  background-color: red;
+  background-color: white;
   position: fixed;
   display: block;
   top: -10px;

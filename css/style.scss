@@ -2,6 +2,15 @@
 このファイルにはレスポンシブ含め
 全体に影響するSCSSを書いていきます。
 */
+
+/* copyright CSS */
+.copyright {
+  font: {
+    size: 20px;
+  }
+}
+/* / copyright CSS */
+
 .width-max {
   width: 100%;
   /*   background-color: red; */

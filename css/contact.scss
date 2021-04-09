@@ -1,18 +1,88 @@
+$mainfontcolor: #707070;
+
 .contact-table-master {
   width: 100vw;
-
+  /* background-color: aquamarine; */
   .contact-sub {
     width: 50vw;
+    /* background-color: blueviolet; */
   }
   .contact-main {
     width: 50vw;
     max-width: 50vh;
+    /* background-color: rgb(163, 255, 127); */
     .contact-table {
+      margin: auto;
       .contact-tr {
+        /* background-color: rgb(197, 127, 255); */
+        width: 40%;
+        vertical-align: top;
+        margin-top: 1vh;
         .contact-td {
+          font: {
+            size: 2rem;
+          }
+          padding: 1vh 0.5vw;
+          color: $mainfontcolor;
+          /*  background-color: rgb(127, 168, 255); */
         }
         .contact-td-input {
+          width: 60%;
           .contact-input {
+            width: 25vw;
+            height: 5vh;
+            font: {
+              size: 2rem;
+            }
+            color: $mainfontcolor;
+            /* background-color: rgb(255, 127, 212); */
+          }
+          .contact-textarea {
+            /*  background-color: rgb(255, 127, 127); */
+            /* background-color: aquamarine; */
+            resize: vertical; /* 横幅の可変を禁止 */
+            width: 25vw;
+            height: 20vh;
+            font: {
+              size: 2rem;
+            }
+            color: $mainfontcolor;
+          }
+          .contact-input-submit {
+            width: 10vw;
+            text-decoration: none;
+            display: inline-block;
+            color: #545454;
+            padding: 1em 2em;
+            border: 1px solid #545454;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            transition: 0.4s;
+            color: #545454;
+            cursor: pointer;
+          }
+
+          .contact-input-submit:after {
+            position: absolute;
+            transition: 0.4s;
+            content: "";
+            width: 0;
+            left: -10%;
+            bottom: 0;
+            height: 120%;
+            background: #545454;
+            transform: skewX(15deg);
+            z-index: -100;
+          }
+
+          .contact-input-submit:hover {
+            color: #fff;
+          }
+
+          .contact-input-submit:hover:after {
+            width: 120%;
+            left: -10%;
           }
         }
       }

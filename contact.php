@@ -8,6 +8,7 @@
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
     <link rel="stylesheet" href="./css/style.min.css"><!-- 全体css -->
+    <link rel="stylesheet" href="./css/contact.min.css">
     <link rel="stylesheet" href="./css/menu.min.css">
     <!--メニュー用css -->
     <script src="./js/none.js"></script><!-- transitionの動作無効用js -->
@@ -31,13 +32,13 @@
         </tr>
     </table>
 
-    <table border="1" class="width-max height-max contact-table-master">
+    <table border="0" class="width-max height-max contact-table-master">
         <tr>
             <td class="contact-sub">
 
             </td>
             <td class="contact-main">
-                <table class="contact-table" border="1">
+                <table class="contact-table" border="0">
                     <tr class="contact-tr">
                         <td class="contact-td">お名前</td>
                         <td class="contact-td-input"><input type="text" class="contact-input"></td>
@@ -59,8 +60,16 @@
                         <td class="contact-td-input"><input type="text" class="contact-input"></td>
                     </tr>
                     <tr class="contact-tr">
+                        <td class="contact-td">お問い合わせ内容</td>
+                        <td class="contact-td-input">
+                            <textarea class="contact-textarea"></textarea>
+                        </td>
+                    </tr>
+                    <tr class="contact-tr">
                         <td class="contact-td"></td>
-                        <td class="contact-td-input"><input type="text" class="contact-input"></td>
+                        <td class="contact-td-input">
+                            <a type="submit" value="送信" class="contact-input-submit">送信</a>
+                        </td>
                     </tr>
                 </table>
             </td>
