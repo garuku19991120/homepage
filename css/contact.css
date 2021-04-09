@@ -1,12 +1,35 @@
 @charset "UTF-8";
+.contact-sub .contact-info-header {
+  color: #707070;
+}
+
+.contact-sub .contact-info {
+  color: #707070;
+}
+
 .contact-table-master {
-  width: 100vw;
+  width: 99vw;
+  height: 86vh;
   /* background-color: aquamarine; */
 }
 
 .contact-table-master .contact-sub {
   width: 50vw;
-  /* background-color: blueviolet; */
+  color: #707070;
+}
+
+.contact-table-master .contact-sub .contact-info-master {
+  margin-left: 3vw;
+}
+
+.contact-table-master .contact-sub .contact-info-master .contact-info-header {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  font-size: 2rem;
+}
+
+.contact-table-master .contact-sub .contact-info-master .contact-info {
+  font-size: 1.5rem;
 }
 
 .contact-table-master .contact-main {
@@ -17,6 +40,7 @@
 
 .contact-table-master .contact-main .contact-table {
   margin: auto;
+  margin-top: 5vh;
 }
 
 .contact-table-master .contact-main .contact-table .contact-tr {

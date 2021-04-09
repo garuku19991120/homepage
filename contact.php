@@ -31,11 +31,36 @@
             </td>
         </tr>
     </table>
+    <div class="menu-space-main"></div>
 
     <table border="0" class="width-max height-max contact-table-master">
         <tr>
             <td class="contact-sub">
+                <div class="contact-info-master">
 
+                    <div class="contact-info-header">
+                        お問い合わせ
+                    </div>
+                    <div class="contact-info">
+
+                        現在お仕事を募集しております。<br>
+
+                        ご用がありましたらお手数をお掛け致しますが こちらのページのご記入をお願いいたします。<br>
+
+                        ご質問の場合は必須以外の項目を空欄で、ご依頼の場合は全ての項目を記入お願いいたします。<br>
+                        ホームページがない場合は「なし」とご記入ください<br><br>
+                        ■お引き受けできるもの<br>
+                        ライトノベルの挿絵<br>
+                        キャラクターデザイン<br>
+                        キャラクター立ち絵<br>
+                        一枚絵<br>
+                        SNSアイコン作成<br>
+                        Live2Dモデルイラスト<br>
+                        Live2Dモデル作成<br>
+                        <br>
+                        上記の案件以外の場合はお問い合わせください。<br>
+                    </div>
+                </div>
             </td>
             <td class="contact-main">
                 <table class="contact-table" border="0">

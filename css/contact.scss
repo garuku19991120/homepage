@@ -1,11 +1,38 @@
 $mainfontcolor: #707070;
-
+.contact-sub {
+  .contact-info-header {
+    color: $mainfontcolor;
+  }
+  .contact-info {
+    color: $mainfontcolor;
+  }
+}
 .contact-table-master {
-  width: 100vw;
+  width: 99vw;
+  height: 86vh;
   /* background-color: aquamarine; */
   .contact-sub {
     width: 50vw;
-    /* background-color: blueviolet; */
+    color: $mainfontcolor;
+    .contact-info-master {
+      margin: {
+        left: 3vw;
+      }
+      .contact-info-header {
+        margin: {
+          top: 1vh;
+          bottom: 1vh;
+        }
+        font: {
+          size: 2rem;
+        }
+      }
+      .contact-info {
+        font: {
+          size: 1.5rem;
+        }
+      }
+    }
   }
   .contact-main {
     width: 50vw;
@@ -13,6 +40,9 @@ $mainfontcolor: #707070;
     /* background-color: rgb(163, 255, 127); */
     .contact-table {
       margin: auto;
+      margin: {
+        top: 5vh;
+      }
       .contact-tr {
         /* background-color: rgb(197, 127, 255); */
         width: 40%;
