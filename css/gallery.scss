@@ -1,0 +1,26 @@
+//ここからgalleryの画像を縦に配置する
+//内容としてはリストを二列に配置してその中に画像を入れ、リストの表記を消したものになる。
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+img {
+  display: inline-block;
+}
+.center ul,
+.center ul li ol {
+  list-style-type: none;
+}
+.center ul li {
+  display: inline-block;
+  vertical-align: top;
+}
+.center ul li ol li {
+  display: list-item;
+  padding: 30px;
+}
+
+img:hover {
+  opacity: 0.8;
+}
+//ここまでがgalleryの画像配置文

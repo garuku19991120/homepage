@@ -30,6 +30,7 @@
             </td>
         </tr>
     </table>
+    <div class="menu-space-main"></div>
 
     <table border="1" class="width-max height-max">
         <tr>

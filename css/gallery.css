@@ -1,1 +1,27 @@
-null
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+img {
+  display: inline-block;
+}
+
+.center ul,
+.center ul li ol {
+  list-style-type: none;
+}
+
+.center ul li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.center ul li ol li {
+  display: list-item;
+  padding: 30px;
+}
+
+img:hover {
+  opacity: 0.8;
+}
